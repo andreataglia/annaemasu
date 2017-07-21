@@ -1,0 +1,14 @@
+{
+  "name": "annaemasu",
+  "version": "1.0.0",
+  "description": "anna e masu website",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "andrea taglia",
+  "license": "ISC",
+  "dependencies": {
+    "less": "^2.7.2"
+  }
+}
