@@ -20,8 +20,8 @@ var	mobileMenuTitle = "Menu",					//The title of the mobile menu
 	
 	
 	//CONTACT FORM VARIABLES
-	contact_form_success_msg = "Form successfully submitted! :)",
-	contact_form_error_msg = "Error sending message :(",
+	contact_form_success_msg = "Inviato correttamente! :)",
+	contact_form_error_msg = "Manca ancora qualcosa... :(",
 	
 	
 	//COUNTDOWN VARIABLES
