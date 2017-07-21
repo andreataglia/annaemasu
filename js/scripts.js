@@ -95,7 +95,7 @@ var Lilac;
                 /**
                  * Initialize Google Maps and populate with concerts locations
                  */
-                //$tis.googleMap();
+                $tis.googleMap();
 
                 /**
                  * Create PrettyPhoto links
