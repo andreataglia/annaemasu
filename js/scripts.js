@@ -95,17 +95,7 @@ var Lilac;
                 /**
                  * Initialize Google Maps and populate with concerts locations
                  */
-                $tis.googleMap();
-
-                /**
-                 * Get latest tweets
-                 */
-                $tis.getLatestTweets();
-
-                /**
-                 * Get Instagram feed
-                 */
-                $tis.getInstagram();
+                //$tis.googleMap();
 
                 /**
                  * Create PrettyPhoto links
@@ -125,7 +115,7 @@ var Lilac;
                 /**
                  * Create Countdown
                  */
-                $tis.countdown();
+                //$tis.countdown();
 
                  /**
                  * Initiate Parallax
@@ -196,9 +186,9 @@ var Lilac;
                     if (navActive.attr('href').charAt(0) === "#") {
                         event.preventDefault();
 
-                        if (navActive.attr('href') !== "#home") {
+                        /*if (navActive.attr('href') !== "#home") {
                             scroll = $(navActive.attr('href')).offset().top - 65;
-                        }
+                        }*/
 
                         $('html, body').stop().animate({
                             scrollTop: scroll

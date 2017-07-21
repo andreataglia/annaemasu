@@ -8,8 +8,7 @@ $(function($){
 		// Components							
 		slide_links			:	'false',
 		slides 				:  	[			// Slideshow Images
-										{image : 'http://placehold.it/1920x1080'},
-										{image : 'http://placehold.it/1920x1080'},  
+										{image : 'images/annaemasu/home.jpg'},
 										{image : 'http://placehold.it/1920x1080'}
 								]
 	});
