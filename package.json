@@ -4,11 +4,22 @@
   "description": "anna e masu website",
   "main": "index.html",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreataglia/annaemasu.git"
   },
   "author": "andrea taglia",
   "license": "ISC",
   "dependencies": {
-    "less": "^2.7.2"
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "less": "^2.7.2",
+    "nodemailer": "^4.0.1"
+  },
+  "engines": {
+    "node": ">= 7.5.0"
   }
 }
