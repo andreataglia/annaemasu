@@ -81,7 +81,7 @@ app.post('/contactForm', function(req, res) {
     // setup e-mail data with unicode symbols
     var mailOptions = {
         from: req.body.fromname + " <annaemasu@info.it>", // sender address
-        to: "drew.taglia@gmail.com", // list of receivers
+        to: "anna.cocozza8@gmail.com", // list of receivers
         subject: "Aò! Hanno scritto da annaemasu.it!", // Subject line
         html: '<p>Ha scritto <b>' + req.body.fromname + '</b>!! (con mail: ' + req.body.fromemail + ')</p> <p>Alla domanda chi "Ci sei?" ha detto: <b>' + req.body.field0_value + '</b> </p> <p>Parla a nome di: ' + ospiti + '<p> <p>Ha lasciato questo messaggio: ' + messaggio + '<p>'
     };
